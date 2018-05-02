@@ -36,17 +36,13 @@
 	<div class="container page">
 		<div class="col-sm-12">
 			<div class="page-buttons">
-				<a href="#">
-					<button class="page-buttons-doc col-sm-5">
-                        Documentation
-                    </button>
-				</a>
-				<a href="#">
-					<button class="page-buttons-ourChannel col-sm-5">
-                        <span></span>
-                        Our channel
-                    </button>
-				</a>
+				<button class="page-buttons-doc col-sm-5" onclick="javascript:window.location='index.php'">
+                    Documentation
+                </button>
+				<button class="page-buttons-ourChannel col-sm-5" onclick="javascript:window.location='index.php'">
+                    <span></span>
+                    Our channel
+                </button>
 			</div>
 			<div class="page-theme">
 				<div class="clearfix col-sm-6">
