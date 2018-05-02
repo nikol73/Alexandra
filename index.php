@@ -94,7 +94,7 @@
 			</button>
 		</div>
 		<div class="footerTop">
-			Create by prestapro 1234
+			Create by prestapro
 		</div>
 	</footer>
 </body>
