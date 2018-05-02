@@ -1,28 +1,31 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>alexandra</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/index.css" media="all">
 </head>
-<body>
+<body  itemscope itemtype="http://www.nikol73.ru/alexandra">
 	<header>
+		<meta itemprop="name" content="Alexandra">
 		<div class="header-img">
 			<div class="header-img-fon"></div>
 		</div>
 		<div class="header-logo">
-			Alexandra
+			<span itemprop="name">
+				Alexandra
+			</span>
 			<div class="header-logoBlock"></div>
 		</div>
-		<div class="header-logoText">
+		<div itemprop="description"  class="header-logoText">
 			1.6 and 1.7 Responsive Muti-Purpose Prestashop Themes
 		</div>
 		<div class="header-block">
 			<div class="header-block-screen">
 				<div class="header-block-screenImg">
-					<img src="image/bookImg.jpg" alt="">
+					<img itemprop="image" src="image/bookImg.jpg" alt="">
 				</div>
 			</div>
 			<div class="header-block-top">
@@ -53,10 +56,10 @@
 								<div class="page-block-imgFon"></div>
 							</div>
 						</a>
-						<div class="page-block-title">
+						<div itemprop="name-theme" class="page-block-title">
                             Home page
                         </div>
-						<div class="page-block-value">
+						<div itemprop="version-theme" class="page-block-value">
                             1.6
                         </div>
 					</div>
@@ -69,10 +72,10 @@
 								<div class="page-block-imgFon"></div>
 							</div>
 						</a>
-						<div class="page-block-title">
+						<div itemprop="name-theme" class="page-block-title">
                             Home page
                         </div>
-						<div class="page-block-value">
+						<div itemprop="version-theme" class="page-block-value">
                             1.7
                         </div>
 					</div>
@@ -82,7 +85,7 @@
 	</div>
 	<footer>
 		<div class="footer">
-			<div class="footer-title">
+			<div class="footer-title" itemprop="description">
 				Start creating your website
 			</div>
 			<button class="footer-botton" onclick="javascript:window.location='index.php'">

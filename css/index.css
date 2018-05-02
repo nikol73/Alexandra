@@ -187,6 +187,10 @@ header{
 	cursor: pointer;
 	font-size: 1.3vw;
 	font-family: 'ProximaNova-Semibold';
+	-webkit-transition: background 0.5s;
+     -moz-transition: background 0.5s;
+     -o-transition: background 0.5s;
+     transition: background 0.5s;
 }
 .page-buttons-doc:hover{
 	background: #1326b7;
