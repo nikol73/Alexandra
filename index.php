@@ -7,9 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/index.css" media="all">
 </head>
-<body  itemscope itemtype="http://www.nikol73.ru/alexandra">
+<body itemscope itemtype="http://nikol73.ru/alexandra">
 	<header>
-		<meta itemprop="name" content="Alexandra">
 		<div class="header-img">
 			<div class="header-img-fon"></div>
 		</div>
@@ -56,10 +55,10 @@
 								<div class="page-block-imgFon"></div>
 							</div>
 						</a>
-						<div itemprop="name-theme" class="page-block-title">
+						<div class="page-block-title">
                             Home page
                         </div>
-						<div itemprop="version-theme" class="page-block-value">
+						<div class="page-block-value">
                             1.6
                         </div>
 					</div>
@@ -72,10 +71,10 @@
 								<div class="page-block-imgFon"></div>
 							</div>
 						</a>
-						<div itemprop="name-theme" class="page-block-title">
+						<div class="page-block-title">
                             Home page
                         </div>
-						<div itemprop="version-theme" class="page-block-value">
+						<div class="page-block-value">
                             1.7
                         </div>
 					</div>
@@ -85,7 +84,7 @@
 	</div>
 	<footer>
 		<div class="footer">
-			<div class="footer-title" itemprop="description">
+			<div itemprop="additionOfDescription" class="footer-title">
 				Start creating your website
 			</div>
 			<button class="footer-botton" onclick="javascript:window.location='index.php'">
