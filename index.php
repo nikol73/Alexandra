@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/index.css" media="all">
 </head>
-<body itemscope itemtype="http://schema.org/Product">
+<body itemscope itemtype="http://schema.org/Action">
 	<header>
 		<div class="header-img">
 			<div class="header-img-fon"></div>
@@ -48,7 +48,7 @@
 			</div>
 			<div class="page-theme">
 				<div class="clearfix col-sm-6">
-					<div class="page-block" itemprop="isRelatedTo">
+					<div itemprop="object" itemscope itemtype="http://schema.org/Action" class="page-block">
 						<a href="index.php">
 							<div class="page-block-img">
 								<img itemprop="image" src="image/theme1.jpg" alt="home page 1.6">
@@ -64,7 +64,7 @@
 					</div>
 				</div>
 				<div class="clearfix col-sm-6">
-					<div itemprop="isRelatedTo" class="page-block">
+					<div itemprop="object" itemscope itemtype="http://schema.org/Action" class="page-block">
 						<a href="index.php">
 							<div class="page-block-img">
 								<img itemprop="image" src="image/theme1.jpg" alt="home page 1.7">
@@ -91,7 +91,7 @@
 				Purcharse now
 			</button>
 		</div>
-		<div itemprop="material" class="footerTop">
+		<div itemprop="disambiguatingDescription" class="footerTop">
 			Create by prestapro
 		</div>
 	</footer>
