@@ -24,7 +24,7 @@
 			<div class="header-block">
 				<div class="header-block-screen">
 					<div class="header-block-screenImg">
-						<img itemprop="image" src="image/bookImg.jpg" alt="image bookImg.jpg home page" itemprop="image">
+						<img itemprop="image" src="image/bookImg.jpg" alt="home page" itemprop="image">
 					</div>
 				</div>
 				<div class="header-block-top">
