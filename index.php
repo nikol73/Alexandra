@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/index.css" media="all">
 </head>
-<body itemscope itemtype="http://nikol73.ru/alexandra">
+<body itemscope itemtype="http://schema.org/Product">
 	<header>
 		<div class="header-img">
 			<div class="header-img-fon"></div>
@@ -18,13 +18,13 @@
 			</span>
 			<div class="header-logoBlock"></div>
 		</div>
-		<div itemprop="description"  class="header-logoText">
+		<div itemprop="description" class="header-logoText">
 			1.6 and 1.7 Responsive Muti-Purpose Prestashop Themes
 		</div>
 		<div class="header-block">
 			<div class="header-block-screen">
 				<div class="header-block-screenImg">
-					<img itemprop="image" src="image/bookImg.jpg" alt="">
+					<img itemprop="image" src="image/bookImg.jpg" alt="home page" itemprop="image">
 				</div>
 			</div>
 			<div class="header-block-top">
@@ -48,33 +48,33 @@
 			</div>
 			<div class="page-theme">
 				<div class="clearfix col-sm-6">
-					<div class="page-block">
-						<a href="#">
+					<div class="page-block" itemprop="isRelatedTo">
+						<a href="index.php">
 							<div class="page-block-img">
-								<img src="image/theme1.jpg" alt="">
+								<img itemprop="image" src="image/theme1.jpg" alt="home page 1.6">
 								<div class="page-block-imgFon"></div>
 							</div>
 						</a>
-						<div class="page-block-title">
+						<div itemprop="name" class="page-block-title">
                             Home page
                         </div>
-						<div class="page-block-value">
+						<div itemprop="identifier" class="page-block-value">
                             1.6
                         </div>
 					</div>
 				</div>
 				<div class="clearfix col-sm-6">
-					<div class="page-block">
-						<a href="#">
+					<div itemprop="isRelatedTo" class="page-block">
+						<a href="index.php">
 							<div class="page-block-img">
-								<img src="image/theme1.jpg" alt="">
+								<img itemprop="image" src="image/theme1.jpg" alt="home page 1.7">
 								<div class="page-block-imgFon"></div>
 							</div>
 						</a>
-						<div class="page-block-title">
+						<div itemprop="name" class="page-block-title">
                             Home page
                         </div>
-						<div class="page-block-value">
+						<div itemprop="identifier" class="page-block-value">
                             1.7
                         </div>
 					</div>
@@ -84,14 +84,14 @@
 	</div>
 	<footer>
 		<div class="footer">
-			<div itemprop="additionOfDescription" class="footer-title">
+			<div itemprop="description" class="footer-title">
 				Start creating your website
 			</div>
 			<button class="footer-botton" onclick="javascript:window.location='index.php'">
 				Purcharse now
 			</button>
 		</div>
-		<div class="footerTop">
+		<div itemprop="material" class="footerTop">
 			Create by prestapro
 		</div>
 	</footer>
