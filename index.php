@@ -24,7 +24,7 @@
 			<div class="header-block">
 				<div class="header-block-screen">
 					<div class="header-block-screenImg">
-						<img itemprop="image" src="image/bookImg.jpg" alt="home page" itemprop="image">
+						<img itemprop="image" src="image/bookImg.jpg" alt="home page image bookImg" longdesc="bookImg.html">
 					</div>
 				</div>
 				<div class="header-block-top">
@@ -51,7 +51,7 @@
 						<div itemprop="object" itemscope itemtype="http://schema.org/Action" class="page-block">
 							<a href="index.php">
 								<div class="page-block-img">
-									<img itemprop="image" src="image/theme1.jpg" alt="home page 1.6">
+									<img itemprop="image" src="image/theme1.jpg" alt="home page 1.6 theme1" longdesc="theme1.html">
 									<div class="page-block-imgFon"></div>
 								</div>
 							</a>
@@ -67,7 +67,7 @@
 						<div itemprop="object" itemscope itemtype="http://schema.org/Action" class="page-block">
 							<a href="index.php">
 								<div class="page-block-img">
-									<img itemprop="image" src="image/theme1.jpg" alt="home page 1.7">
+									<img itemprop="image" src="image/theme1.jpg" alt="home page 1.7 theme1" longdesc="theme1.html">
 									<div class="page-block-imgFon"></div>
 								</div>
 							</a>
