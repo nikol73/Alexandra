@@ -75,7 +75,7 @@
 								Home page
 							</div>
 							<div itemprop="identifier" class="page-block-value">
-								1.7
+								1.71
 							</div>
 						</div>
 					</div>
