@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xml:lang="en" lang="en">
 	<head>
-	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Type" content="text/html/xhtml; charset=utf-8" />
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>alexandra</title>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
@@ -39,12 +39,12 @@
 			<div class="col-sm-12">
 				<div class="page-buttons">
 					<button class="page-buttons-doc col-sm-5" onclick="javascript:window.location='index.php'">
-	                    Documentation
-	                </button>
+						Documentation
+					</button>
 					<button class="page-buttons-ourChannel col-sm-5" onclick="javascript:window.location='index.php'">
-	                    <span></span>
-	                    Our channel
-	                </button>
+						<span></span>
+						Our channel
+					</button>
 				</div>
 				<div class="page-theme">
 					<div class="clearfix col-sm-6">
@@ -56,11 +56,11 @@
 								</div>
 							</a>
 							<div itemprop="name" class="page-block-title">
-	                            Home page
-	                        </div>
+								Home page
+							</div>
 							<div itemprop="identifier" class="page-block-value">
-	                            1.6
-	                        </div>
+								1.6
+							</div>
 						</div>
 					</div>
 					<div class="clearfix col-sm-6">
@@ -72,11 +72,11 @@
 								</div>
 							</a>
 							<div itemprop="name" class="page-block-title">
-	                            Home page
-	                        </div>
+								Home page
+							</div>
 							<div itemprop="identifier" class="page-block-value">
-	                            1.7
-	                        </div>
+								1.7
+							</div>
 						</div>
 					</div>
 				</div>
