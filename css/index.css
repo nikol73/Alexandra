@@ -42,12 +42,15 @@ header{
 	/*color: var(--white);*/
 	color: #ffffff;
 	position: relative;
-	display: inline-block;
+	display: block;
 	text-align: center;
 	width: 100%;
 
 	max-width: 1348px;
 	margin: auto;
+}
+li{
+    list-style-type: none;
 }
 .header-img{
 	background: #5766d2;
@@ -109,10 +112,10 @@ header{
 }
 .header-logoText{
 	font-size: 1.6vW;
-
 	font-family: 'ProximaNova-Light';
 	padding-left: 30px;
 	padding-right: 30px;
+	margin-bottom: 0px;
 }
 .header-block{
 	padding-top: 65px;
@@ -139,6 +142,7 @@ header{
 .header-block-screenImg img{
 	width: 100%;
 	height: 100%;
+	border: 1px solid #fff;
 }
 .header-block-top{
 	margin-top: -7px;
@@ -247,6 +251,7 @@ header{
 	border-radius: 10px;
 	box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
 	position: relative;
+	cursor: pointer;
 }
 .page-theme .page-block .page-block-imgFon{
 	background: #3745aa;
@@ -260,7 +265,7 @@ header{
 .page-theme .page-block img{
 	width: inherit;
 	height: auto;
-	background-color: #c4c4c4;
+	/*background-color: #c4c4c4;*/
 }
 .page-theme .page-block .page-block-title{
 	text-align: center;
@@ -321,6 +326,7 @@ footer{
 	font-size: 1.1vw;
 	padding: 20px 0px;
 	font-family: ProximaNova-Regular;
+	margin-bottom: 0px;
 }
 
 @media(min-width: 1348px){
